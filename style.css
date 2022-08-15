@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 20px 'Montserrat', sans-serif;
+}
+
+/* Math Calc */
+.math-games {
+  background-color: #4033f7;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 8px 8px -4px #98cddf;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.math-games .items {
+  text-align: center;
+}
+
+input {
+  border: 1px dashed #333;
+  outline: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 11px 10px;
+}
+
+.orange {
+  color: rgb(243 92 46);
+}
+
+.cyan {
+  color: #02c3ba;
+}
+
+.math-games span {
+  font: 40px 'indie Flower', cursive;
+}
+
+button {
+  border: none;
+  color: white;
+  font-size: 1.1em;
+  background-color: #1abc9c;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.items {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+/* Modal Alert*/
+.modal-container {
+  position: absolute;
+  right: 50px;
+  bottom: 40px;
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  color: white;
+  background-color: #e74c3c;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  display: none;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 40px;
+}
+.close:hover {
+  cursor: pointer;
+}
